@@ -51,8 +51,8 @@ module.exports =
     "Comes in sizes large and medium, 100% cotton. All original design. Ships from Thailand, handling time is about two days."],
 
     ["7", 
-    "New Rock Men's 7950", 
-    "Simple and comfortable, yet eye-catching and unforgettable - Summitfashion's Men's Gothic Creepers boast two-inches of durable rubber in the platform and 100% vegan leather. This sleek pair of boots features nothing other than a double-row of metal studs lining the eyelets along the shaft - an excellent choice if you're looking for something not-too-flashy yet alternative and sexy. Perfect for club-goers, performers, rock and industrial concerts and all kinds of misadventures! Also makes the perfect gift.",
+    "New Rock Men's 7950",
+    "You're going straight to hell for wearing these boys - world-famous alternative boot company New Rock introduces the Men's 7950 S1 - a one-of-a-kind pair of gothic boots you won't find anywhere else! With a unique shoe-like, raised-cuff covered in studs design, they allow for ease and comfort without having to sacrifice style - not to mention the New Rock metal skull emblem and a solid metal heel for maximum stability. With its black leather polish finish and expertly-done stitchwork, you're ready to go toe-to-toe with the devil himself the moment you slide into these babies.",
     "https://images-na.ssl-images-amazon.com/images/I/61QmVcHB31L._UY575_.jpg", 
     "$269.99", 
     "http://amzn.to/2smdqh6", 
@@ -60,7 +60,7 @@ module.exports =
 
     ["8", 
     "Summitfashions Men's Creepers", 
-    "This retro Marilyn Manson shirt is a one-of-a-kind old school goodie featuring Jesus in triple vision with a crown of green thorns wrapped around his heads. Guaranteed to piss off a whole lot of Christians. The text located on the bottom of the shirt reads “SEE NO TRUTH, HEAR NO TRUTH, SPEAK NO TRUTH”", 
+    "Simple and comfortable, yet eye-catching and unforgettable - Summitfashion's Men's Gothic Creepers boast two-inches of durable rubber in the platform and 100% vegan leather. This sleek pair of boots features nothing other than a double-row of metal studs lining the eyelets along the shaft - an excellent choice if you're looking for something not-too-flashy yet alternative and sexy. Perfect for club-goers, performers, rock and industrial concerts and all kinds of misadventures! Also makes the perfect gift.",
     "https://images-na.ssl-images-amazon.com/images/I/616tN6wRPeL._UY575_.jpg", 
     "$87.98", 
     "http://amzn.to/2EqrCvm", 
