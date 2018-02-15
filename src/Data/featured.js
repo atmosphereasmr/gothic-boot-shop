@@ -1,3 +1,30 @@
 module.exports =
 
-{"data":[["4","Sweet Dreams Shirt","Here’s a brand new Marilyn Manson shirt that takes us back to the time when the “Sweet Dreams” music video was in heavy rotation on MTV and Marilyn Manson was touring his ass off while creating the ground-breaking songs that would become the album Antichrist Superstar. This shirt features a shot of Marilyn straight out of the Sweet Dreams music video with his lipstick terribly smeared and flanked by a couple angle shots with a transparent filter, making him look like he’s surrounded by his own ghosts. A must have for die-hard Marilyn Manson fans everywhere!","https://images-na.ssl-images-amazon.com/images/I/710OZCPe2XL._UX522_.jpg","27.40","http://amzn.to/2DOcdk9","100% cotton - high quality print. Fully licensed - 100% official."],["6","Portrait Vinyl + Shirt","It was the best of times, it was the worst of times. The early days of Marilyn Manson (And The Spooky Kids) were full of color, decadence and freakishly outlandish stage antics that we will never see again! Marilyn Manson himself noted that the band’s evolution from Portrait and Smells Like Children to Antichrist Superstar was a change from a punk-rock driven, cartoonish image to a darker sound and a much more serious image. Regardless, the Portrait of an American Family (also known as the Spooky Kids era) showcases the very exciting rise of the Antichrist Superstar from cross-dressing, striped-socks dawned freak show to the Antichrist Superstar himself. Features the band’s earliest hit songs “Lunchbox” “Get Your Gun” and “Cake and Sodomy.”\t","https://images-na.ssl-images-amazon.com/images/I/519Og1HbbbL.jpg","$369.00","http://amzn.to/2FvbLYw","Also comes with the rare Portrait of an American Family shirt."],["5","Antichrist Superstar Socks","The time has come, it is quite clear. The Antichrist is almost here!\" Fresh from Killstars brand-new, special Marilyn Manson line of clothing comes this very attractive pair of Antichrist Superstar stockings! It features the red circular power symbol above the knees and black and white stripes cover everywhere else to the toes. Perfect gift for your date to the next Marilyn Manson concert!","https://images-na.ssl-images-amazon.com/images/I/61eR183G3eL._UX522_.jpg","$17.95","http://amzn.to/2DMV2PY","Stretches just above the knee. Made of high-quality material - 90% nylon, 10% elasthane. Comes in one-size-fits-most. Washing instructions - machine wash at 30 degrees."]]}
+{"data":[
+    ["1", 
+    "Pleaser Women's Crypto", 
+    "Be prepared to turn some heads and never be forgotten on the dance floor! From Pleaser alternative footwear company comes the Women's Crypto 106, and it's made to break and / or melt some hearts. Featuring corset-style lace design and blood-red lacy patterns along the shaft, this attractive pair of gothic women's boots also features five adjustable buckle straps and a 3.75 inch heel. Perfect for rocking the dance floor, going to industrial concerts and looking incredible for the next party - these babies are drop-dead sexy!",
+    "https://images-na.ssl-images-amazon.com/images/I/71lyfm1p3OL._UY575_.jpg", 
+    "$97.95", 
+    "http://amzn.to/2F0TkvQ", 
+    "Available in sizes 6 US to 12 US. Shaft measures approximately 16.5 inches - heel measures approximately 3.75 inches - platform measures 0.75 inches. Price may vary depending on size of boot selected."],
+
+    ["2", 
+    "Men's Demonia Trashville", 
+    "From Pleaser alternative footwear's Demonia line comes the Men's Trashville 518. This sleek pair of gothic boots are dancefloor-ready, boasting a 3 1/4th inch durable synthetic rubber platform and five synthetic leather adjustable buckle straps. Also features a concealed black zipper for easy fitting and removal. Simple and sexy, this makes the perfect pair of dance / concert / performing boots, and you'll be standing taller than the rest - putting you immediately in charge!",
+    "https://images-na.ssl-images-amazon.com/images/I/81RupuygnxL._UY575_.jpg", 
+    "$99.95", 
+    "http://amzn.to/2sptqz3", 
+    "Available in sizes Men's US 4 to Men's US 13. Crafted of high-quality synthetic leather and rubber. Price may vary depending on size of boot selected."],
+
+    ["3", 
+    "Pleaser Women's Swing 815", 
+    "A drop-dead gorgeous pair of women's gothic boots that has almost as much metal as it does rubber and synthetic leather! From world-famous Pleaser footwear company comes the Women's Swing 815 - standing tall and ready for some dancefloor / dungeon action! With a natural rubber sole heel measuring a staggering 5.25 inches, these boots will get you at the top of your game in style! Features eight adjustable buckle straps with a metal-plate style shaft and vamp, as well as a polished synthetic leather finish. Be prepared to turn some heads and garner some well-deserved attention with these on your feet!", 
+    "https://images-na.ssl-images-amazon.com/images/I/818zlomRlTL._UY575_.jpg", 
+    "$116.95", 
+    "http://amzn.to/2CgxPEb", 
+    "Available in sizes US 6 to US 12. Platform measures approximately 5 1/2 inches, shaft measures approximately 14.75 inches from arch. Price of boot may depend upon size selected."],
+
+]
+
+}

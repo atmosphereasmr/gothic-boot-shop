@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import Shirts from './Components/Shirts/shirts.js'
+import MensShoes from './Components/MensShoes/mensshoes.js'
 import Vinyl from './Components/Vinyl/vinyl.js'
 import Socks from './Components/Socks/socks.js'
 import Patches from './Components/Patches/patches.js'
@@ -12,13 +12,13 @@ import Posters from './Components/Posters/posters.js'
 
 export default (
     <Switch>
-    <Route path="/" exact component={Shirts}/>
-    <Route path="/vinyl" component={Vinyl}/>
-    <Route path="/socks" component={Socks}/>
-    <Route path="/patches" component={Patches}/>
+    <Route path="/" exact component={MensShoes}/>
+    <Route path="/mens-boots" component={Vinyl}/>
+    <Route path="/womens-shoes" component={Socks}/>
+    <Route path="/womens-boots" component={Patches}/>
     <Route path="/featured-item" component={FeaturedItem}/>
     <Route path="/featured-item-2" component={FeaturedItem2}/>
     <Route path="/featured-item-3" component={FeaturedItem3}/>
-    <Route path="/posters" component={Posters}/>
+    <Route path="/womens-heels" component={Posters}/>
     </Switch>
 )

@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import '../Shirts/shirts.css'
+import '../MensShoes/shirts.css'
 import { Link } from 'react-router-dom'
 import { connect } from "react-redux";
 import { choose, price, image } from '../../reducer'
 import Scroll from 'scroll-js'
 
 
-const shirts = require('../../Data/vinyl.js')
+const shirts = require('../../Data/mens-boots.js')
 
 class Vinyl extends Component {
 
@@ -50,7 +50,7 @@ class Vinyl extends Component {
             if (window.innerWidth <= 425) {
                 console.log('ayeeeee son')
                 const store = document.getElementById('right-container')
-                store.style = "height: 550px"
+                store.style = "height: 400px"
                 } else {
                     const leftBar = document.getElementById('left-bar')
                     const containerHeight = document.getElementById('right-container').clientHeight
@@ -269,27 +269,27 @@ render() {
                 <div className="left-container" id="left-container">
                     <Link to="/">
                         <div className="shirts-tab-off" id="shirts-tab">
-                            <h1>Shirts</h1>
+                            <h1>Men's Shoes</h1>
                         </div>
                     </Link>
-                    <Link to="/vinyl">
+                    <Link to="/mens-boots">
                         <div className="vinyl-tab-on" id="vinyl-tab">
-                            <h1>Vinyl</h1>
+                            <h1>Men's Boots</h1>
                         </div>
                     </Link>
-                    <Link to="/socks">
+                    <Link to="/womens-shoes">
                         <div className="vinyl-tab" id="vinyl-tab">
-                            <h1>Socks</h1>
+                            <h1>Women's Shoes</h1>
                         </div>
                     </Link>
-                    <Link to="/patches">
+                    <Link to="/womens-boots">
                         <div className="vinyl-tab" id="vinyl-tab">
-                            <h1>Patches & Pins</h1>
+                            <h1>Women's Boots</h1>
                         </div>
                     </Link>
-                    <Link to="/posters">
+                    <Link to="/womens-heels">
                         <div className="vinyl-tab" id="vinyl-tab">
-                            <h1>Posters</h1>
+                            <h1>Women's Heels</h1>
                         </div>
                     </Link>
                 </div>

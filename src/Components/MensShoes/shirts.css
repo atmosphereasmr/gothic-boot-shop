@@ -24,13 +24,13 @@
     width: 20%;
     height: inherit;
     border-top-left-radius: 25px;
-    background-color: #521219;
+    background-color: black;
 }
 
 .left-bar {
     width: 10%;
     height: inherit;
-    background: linear-gradient(to right, white, #521219);
+    background: linear-gradient(to right, white, black);
     background-color: red;
 }
 
@@ -138,7 +138,7 @@
     pointer-events: none;
     width: 100%;
     height: 0%;
-    background-color: #521219;
+    background-color: black;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -153,7 +153,7 @@
 .price-container-on {
     width: 100%;
     height: 20%;
-    background-color: #521219;
+    background-color: black;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -356,7 +356,7 @@
 .chosen-header {
     width: 100%;
     height: 10%;
-    background-color: #521219;
+    background-color: black;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
     color: white;
@@ -435,8 +435,8 @@
 .chosen-buy-button:hover {
     transition: all 0.5s;
     background-color: white;
-    border: 1px solid #521219;
-    color: #521219;
+    border: 1px solid black;
+    color: black;
 }
 
 .shirts-tab {
@@ -449,13 +449,13 @@
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    color: #521219;
+    color: black;
 }
 
 .shirts-tab-off {
     width: 100%;
     height: 50px;
-    background-color: #521219;
+    background-color: black;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     display: flex;
     justify-content: center;
@@ -466,7 +466,7 @@
 
 .shirts-tab-off:hover {
     background-color: white;
-    color: #521219;
+    color: black;
     border-bottom-left-radius: 25px;
     transition: all 0.25s;
 }
@@ -474,7 +474,7 @@
 .vinyl-tab {
     width: 100%;
     height: 50px;
-    background-color: #521219;
+    background-color: black;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     display: flex;
     justify-content: center;
@@ -495,7 +495,7 @@
     justify-content: center;
     align-items: center;
     font-size: 15px;
-    color: #521219;
+    color: black;
     transition: all 0.25s;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -503,7 +503,7 @@
 
 .vinyl-tab:hover {
     background-color: white;
-    color: #521219;
+    color: black;
     transition: all 0.25s;
 }
 
@@ -693,7 +693,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .item-1 {width: 60% !important;}
+    .item-1 {width: 60% !important; height: 100px;}
     .shirts-tab {font-size: 8px;}
     .vinyl-tab {font-size: 8px; text-align: center;}
     .shirts-tab-off {font-size: 8px;}
@@ -711,7 +711,7 @@
 }
 
 @media screen and (max-width: 375px) {
-    .item-1 {width: 100%;}
+    .item-1 {width: 100%; height: 100px;}
     .shirts-tab {font-size: 8px;}
     .vinyl-tab {font-size: 8px; text-align: center;}
     .shirts-tab-off {font-size: 8px;}
@@ -729,7 +729,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .item-1 {width: 60%;}
+    .item-1 {width: 60%; height: 100px;}
     .shirts-tab {font-size: 10px; border-radius: 0px; height: 50px;}
     .vinyl-tab {font-size: 10px; text-align: center; height: 50px;}
     .shirts-tab-off {font-size: 10px;}

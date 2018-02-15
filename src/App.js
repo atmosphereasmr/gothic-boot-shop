@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Shirts from './Components/Shirts/shirts'
 import Header from './Components/Header/header'
 import router from "./router";
 import Footer from './Components/Footer/footer'

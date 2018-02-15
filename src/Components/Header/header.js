@@ -97,7 +97,7 @@ export default class Header extends Component {
                     <div className="header-bar">
                         <div className="left-header-tab" />
                         <div className="website-title">
-                            <div className="website-title-font">Vintage Marilyn Manson Shop</div>
+                            <div className="website-title-font">Gothic Boot Shop</div>
                         </div>
                         <div className="header-left-container">
                             <div className="social-bar">

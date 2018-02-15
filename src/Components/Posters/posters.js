@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import '../Shirts/shirts.css'
+import '../MensShoes/shirts.css'
 import { Link } from 'react-router-dom'
 import Scroll from 'scroll-js'
 
 
-const shirts = require('../../Data/posters.js')
+const shirts = require('../../Data/womens-heels.js')
 
 export default class Posters extends Component {
 
@@ -48,7 +48,7 @@ export default class Posters extends Component {
             if (window.innerWidth <= 425) {
                 console.log('ayeeeee son')
                 const store = document.getElementById('right-container')
-                store.style = "height: 1300px"
+                store.style = "height: 400px"
                 } else {
                     const leftBar = document.getElementById('left-bar')
                     const containerHeight = document.getElementById('right-container').clientHeight
@@ -211,40 +211,7 @@ buyClick() {
 }
 
 goBack() {
-    const chosenItem = document.getElementById("chosen-item")
-    const chosenDescription = document.getElementById("chosen-description")
-    const chosenBuyBox = document.getElementById("chosen-buy-box")
-    const goBackButton = document.getElementById('go-back-button')
-    const items = document.getElementsByName("item-tag")
-    const rightContainer = document.getElementById('right-container')
-    const goBackButton2 = document.getElementById('go-back-button-2')
-
-    chosenItem.className = "chosen-item-off"
-    chosenDescription.className = "chosen-description-off"
-    chosenBuyBox.className = "chosen-buy-box-off"
-    goBackButton.className = "go-back-button-off"
-    goBackButton2.className = "go-back-button-off"
-    for (var i = 0; i < items.length; i++) {
-        items[i].className = "item-1"
-    }
-
-    const leftBar = document.getElementById('left-bar')
-    const containerHeight = document.getElementById('right-container').clientHeight
-    const menu = document.getElementById('left-container')
-    const rightBar = document.getElementById('right-bar')
-    if (window.innerWidth <= 320 || window.innerWidth <= 375 || window.innerWidth <= 425) {
-    leftBar.style = "height: 5100px"
-    menu.style = "height: 5100px"
-    rightBar.style = "height: 5100px"
-    } else if (window.innerWidth >= 425 && window.innerWidth < 2560) {
-        leftBar.style = "height: 1900px"
-        menu.style = "height: 1900px"
-        rightBar.style = "height: 1900px"
-    } else if (window.innerWidth >= 2560) {
-        leftBar.style = "height: 1900px"
-        menu.style = "height: 1900px"
-        rightBar.style = "height: 1900px"
-    }
+    window.location.reload()
 }
 
 cartOn() {
@@ -297,27 +264,27 @@ render() {
                 <div className="left-container" id="left-container">
                     <Link to="/">
                         <div className="shirts-tab-off" id="shirts-tab">
-                            <h1>Shirts</h1>
+                            <h1>Men's Shoes</h1>
                         </div>
                     </Link>
-                    <Link to="/vinyl">
+                    <Link to="/mens-boots">
                         <div className="vinyl-tab" id="vinyl-tab">
-                            <h1>Vinyl</h1>
+                            <h1>Men's Boots</h1>
                         </div>
                     </Link>
-                    <Link to="/socks">
+                    <Link to="/womens-shoes">
                         <div className="vinyl-tab" id="vinyl-tab">
-                            <h1>Socks</h1>
+                            <h1>Women's Shoes</h1>
                         </div>
                     </Link>
-                    <Link to="/patches">
+                    <Link to="/womens-boots">
                         <div className="vinyl-tab" id="vinyl-tab">
-                            <h1>Patches & Pins</h1>
+                            <h1>Women's Boots</h1>
                         </div>
                     </Link>
-                    <Link to="/posters">
+                    <Link to="/womens-heels">
                         <div className="vinyl-tab-on" id="vinyl-tab">
-                            <h1>Posters</h1>
+                            <h1>Women's Heels</h1>
                         </div>
                     </Link>
                 </div>

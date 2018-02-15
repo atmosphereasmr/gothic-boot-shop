@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import '../Shirts/shirts.css'
+import '../MensShoes/shirts.css'
 import { Link } from 'react-router-dom'
 import Scroll from 'scroll-js'
 
 
-const shirts = require('../../Data/socks.js')
+const shirts = require('../../Data/womens-shoes.js')
 
 export default class Socks extends Component {
 
@@ -264,27 +264,27 @@ export default class Socks extends Component {
                     <div className="left-container" id="left-container">
                         <Link to="/">
                             <div className="shirts-tab-off" id="shirts-tab">
-                                <h1>Shirts</h1>
+                                <h1>Men's Shoes</h1>
                             </div>
                         </Link>
-                        <Link to="/vinyl">
+                        <Link to="/mens-boots">
                             <div className="vinyl-tab" id="vinyl-tab">
-                                <h1>Vinyl</h1>
+                                <h1>Men's Boots</h1>
                             </div>
                         </Link>
-                        <Link to="/socks">
+                        <Link to="/womens-shoes">
                             <div className="vinyl-tab-on" id="vinyl-tab">
-                                <h1>Socks</h1>
+                                <h1>Women's Shoes</h1>
                             </div>
                         </Link>
-                        <Link to="/patches">
+                        <Link to="/womens-boots">
                             <div className="vinyl-tab" id="vinyl-tab">
-                                <h1>Patches & Pins</h1>
+                                <h1>Women's Boots</h1>
                             </div>
                         </Link>
-                        <Link to="/posters">
+                        <Link to="/womens-heels">
                             <div className="vinyl-tab" id="vinyl-tab">
-                                <h1>Posters</h1>
+                                <h1>Women's Heels</h1>
                             </div>
                         </Link>
                     </div>

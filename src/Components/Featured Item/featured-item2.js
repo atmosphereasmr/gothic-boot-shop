@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import '../Shirts/shirts.css'
+import '../MensShoes/shirts.css'
 import { Link } from 'react-router-dom'
 
 const shirts = require('../../Data/featured.js')
@@ -68,31 +68,31 @@ export default class FeaturedItem2 extends Component {
                     <div className="left-bar" id="left-bar">
                     </div>
                     <div className="left-container" id="left-container">
-                        <Link to="/">
-                            <div className="shirts-tab-off" id="shirts-tab">
-                                <h1>Shirts</h1>
-                            </div>
-                        </Link>
-                        <Link to="/vinyl">
-                            <div className="vinyl-tab" id="vinyl-tab">
-                                <h1>Vinyl</h1>
-                            </div>
-                        </Link>
-                        <Link to="/socks">
-                            <div className="vinyl-tab" id="vinyl-tab">
-                                <h1>Socks</h1>
-                            </div>
-                        </Link>
-                        <Link to="/patches">
-                            <div className="vinyl-tab" id="vinyl-tab">
-                                <h1>Patches & Pins</h1>
-                            </div>
-                        </Link>
-                        <Link to="/posters">
-                            <div className="vinyl-tab" id="vinyl-tab">
-                                <h1>Posters</h1>
-                            </div>
-                        </Link>
+                    <Link to="/">
+                        <div className="shirts-tab-off" id="shirts-tab">
+                            <h1>Men's Shoes</h1>
+                        </div>
+                    </Link>
+                    <Link to="/mens-boots">
+                        <div className="vinyl-tab" id="vinyl-tab">
+                            <h1>Men's Boots</h1>
+                        </div>
+                    </Link>
+                    <Link to="/womens-shoes">
+                        <div className="vinyl-tab" id="vinyl-tab">
+                            <h1>Women's Shoes</h1>
+                        </div>
+                    </Link>
+                    <Link to="/womens-boots">
+                        <div className="vinyl-tab" id="vinyl-tab">
+                            <h1>Women's Boots</h1>
+                        </div>
+                    </Link>
+                    <Link to="/womens-heels">
+                        <div className="vinyl-tab" id="vinyl-tab">
+                            <h1>Women's Heels</h1>
+                        </div>
+                    </Link>
                     </div>
                     <div className="vinyl-right-container" id="right-container">
                         <div className="chosen-item-on" id="chosen-item" onClick={() => this.buyClick()} onMouseEnter={() => this.cartOn()} onMouseLeave={() => this.cartOff()}>

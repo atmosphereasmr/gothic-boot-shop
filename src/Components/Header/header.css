@@ -35,14 +35,14 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url('../../Images/marilyn-manson.jpg');
+    background-image: url('../../Images/doors.jpg');
     background-position-x: 10%;
 }
 
 .left-header-tab {
     width: 10%;
     height: 100%;
-    background: linear-gradient(to right, white, #521219);
+    background: linear-gradient(to right, white, black);
 }
 
 .website-title {
@@ -51,7 +51,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #521219;
+    background-color: black;
+    font-size: 20px;
 }
 
 .website-title-font {
@@ -74,7 +75,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #521219;
+    background-color: black;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
 }
@@ -200,9 +201,9 @@
 .featured-item-1-text {
     width: 100%;
     height: 15%;
-    background-color: #521219;
+    background-color: black;
     color: white;
-    border: 1px solid #521219;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -248,9 +249,9 @@
 .featured-item-2-text {
     width: 100%;
     height: 15%;
-    background-color: #521219;
+    background-color: black;
     color: white;
-    border: 1px solid #521219;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -297,9 +298,9 @@
 .featured-item-3-text {
     width: 100%;
     height: 15%;
-    background-color: #521219;
+    background-color: black;
     color: white;
-    border: 1px solid #521219;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -328,7 +329,7 @@
     .social-bar{display: none;}
     .header-left-container{display: none;}
     .header-bar{justify-content: flex-end;}
-    .website-title{width: 60%;}
+    .website-title{width: 60%; font-size: 20px;}
     .website-title-font{font-size: 20px;}
     .featured-items-container{display: none;}
     .header-pic-container{height: 100%;}
@@ -341,7 +342,7 @@
     .social-bar{display: none;}
     .header-left-container{display: none;}
     .header-bar{justify-content: flex-end;}
-    .website-title{width: 60%;}
+    .website-title{width: 60%; font-size: 20px;}
     .website-title-font{font-size: 20px;}
     .featured-items-container{display: none;}
     .header-pic-container{height: 100%;}
@@ -353,7 +354,7 @@
     .social-bar{display: none;}
     .header-left-container{display: none;}
     .header-bar{justify-content: flex-end;}
-    .website-title{width: 60%;}
+    .website-title{width: 60%; font-size: 20px;}
     .website-title-font{font-size: 20px;}
     .featured-items-container{display: none;}
     .header-pic-container{height: 100%;}
@@ -369,7 +370,7 @@
     .featured-item-1-text {font-size: 20px;}
     .featured-item-2-text {font-size: 20px;}
     .featured-item-3-text {font-size: 20px;}
-    .website-title-font {font-size: 16px; text-align: center;}
+    .website-title-font {font-size: 20px; text-align: center;}
     .social-bar {width: 30%;};
 }
 
@@ -381,7 +382,7 @@
     .featured-item-1-text {font-size: 20px;}
     .featured-item-2-text {font-size: 20px;}
     .featured-item-3-text {font-size: 20px;}
-    .website-title-font {font-size: 20px; text-align: center;}
+    .website-title-font {font-size: 30px; text-align: center;}
     .social-bar {width: 20%;}
     .featured-items-tab {font-size: 25px; width: 40%;};
 }
@@ -394,7 +395,7 @@
     .featured-item-1-text {font-size: 25px;}
     .featured-item-2-text {font-size: 25px;}
     .featured-item-3-text {font-size: 25px;}
-    .website-title-font {font-size: 20px; text-align: center;}
+    .website-title-font {font-size: 30px; text-align: center;}
     .social-bar {width: 20%;}
     .featured-items-tab {font-size: 30px; width: 40%;};
 }
